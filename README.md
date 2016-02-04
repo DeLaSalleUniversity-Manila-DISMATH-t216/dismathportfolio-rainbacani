@@ -22,7 +22,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - DISMATH is starting to affect the way I talk to people.
 - This week, I learned that propositions can also be proved using Logical equivalences.
 -Using logical equivalences is similar to identity laws in trigonometry.
-- In DISMATH, there are also laws that we can use as a logical proof, such as
+- In DISMATH, there are also laws that we can use as a logical proof, such as:
 
 |         Name        |                           Equivalence                          |	
 |:-------------------:|:--------------------------------------------------------------:|
@@ -41,7 +41,8 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 -Quantifiers indicates generality of the open sentence in which a variable occurs.
 --**Existential Quantifiers** indicates "there exists".
 --**Universal Quantifiers** indicates "for all".
--**When is it true? When is it false?**
+-**When is it true? When is it false?**:
+
 |               |           When True             |
 |:-------------:|:-------------------------------:|
 |     ∀xP(x)    |    P(x) is true for every x    |
@@ -51,6 +52,6 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 |:-------------:|:-------------------------------:|
 |     ∀xP(x)    |    There is an x for which P(x) is false   |
 |     ∃xP(x)   |   P(x) is false for every x   |
-
+-
 #Week 3
 This week, We 
