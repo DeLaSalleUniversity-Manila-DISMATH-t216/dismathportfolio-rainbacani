@@ -27,14 +27,14 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - I can remember those identity laws in trigonometry.
 - In DISMATH, there are also laws that we can use as a logical proof, such as
 |         Name        |                           Equivalence                          |
-|:-------------------:|:--------------------------------------------------------------:|
-|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p               |
-|   Domination laws   |                       p v T ≡ T<br>p ∧ F ≡ F               |
-|    Negation laws    |                     p v ¬p ≡ T<br>p ∧ ¬p ≡ F                   |
-| Double negation law |                            ¬(¬p) ≡ p                           |
-|   Idempotent laws   |                       p v p ≡ p<br>p ∧ p ≡ p               |
-|   Commutative laws  |                   p v q ≡ q v p<br>p ∧ q ≡ q ∧ p               |
-|   Associative laws  |       (p v q) v r ≡ p v (q v r)<br>(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |
-|  Distributive laws  | p v (q ∧ r) ≡ (p v q) ∧ (p v r)<br>p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |
-|   De Morgan's laws  |              ¬(p ∧ q) ≡ ¬p v ¬q<br>¬(p v q) ≡ ¬p ∧ ¬q          |
-|   Absorption laws   |                 p v (p ∧ q) ≡ p<br>p ∧ (p v q) ≡ p             |
+38	|:-------------------:|:--------------------------------------------------------------:|
+39	|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p               |
+40	|   Domination laws   |                       p v T ≡ T<br>p ∧ F ≡ F               |
+41	|    Negation laws    |                     p v ¬p ≡ T<br>p ∧ ¬p ≡ F                   |
+42	| Double negation law |                            ¬(¬p) ≡ p                           |
+43	|   Idempotent laws   |                       p v p ≡ p<br>p ∧ p ≡ p               |
+44	|   Commutative laws  |                   p v q ≡ q v p<br>p ∧ q ≡ q ∧ p               |
+45	|   Associative laws  |       (p v q) v r ≡ p v (q v r)<br>(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |
+46	|  Distributive laws  | p v (q ∧ r) ≡ (p v q) ∧ (p v r)<br>p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |
+47	|   De Morgan's laws  |              ¬(p ∧ q) ≡ ¬p v ¬q<br>¬(p v q) ≡ ¬p ∧ ¬q      |    |
+48	|   Absorption laws   |                 p v (p ∧ q) ≡ p<br>p ∧ (p v q) ≡ p          |   |
