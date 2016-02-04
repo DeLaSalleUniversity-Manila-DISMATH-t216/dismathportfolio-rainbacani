@@ -83,4 +83,7 @@ There are **tools** that can be valid argumaents in propositional logic.
 |      p<br>q<br>∴ p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
 | p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       | 
 
--B
+
+
+--GOD IS GOOD, ALL THE TIME.
+--ALL THE TIME, GOD IS GOOD.
