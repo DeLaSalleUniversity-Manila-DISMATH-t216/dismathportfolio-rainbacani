@@ -17,25 +17,40 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - DISMATH is like learning a whole new language especially when I saw unfamiliar things like ¬(not), ^(and), ∧(and), v(or),⊕ (ex or), →(implies to), and ↔(biconditional).
 - Through proof table we proved that implication is equal to its contrapositive.
 - p → q = ¬q → ¬p
-- At first I was like "What are those!?". 
-- But I realized they can be useful in any argument anytime soon
 
 #Week 2
 - DISMATH is starting to affect the way I talk to people.
 - This week, I learned that propositions can also be proved using Logical equivalences.
-- Now it gets a bit familiar. 
-- I can remember those identity laws in trigonometry.
-- In DISMATH, there are also laws that we can use as a logical proof, such as:
+-Using logical equivalences is similar to identity laws in trigonometry.
+- In DISMATH, there are also laws that we can use as a logical proof, such as
 
-|         Name        |                           Equivalence                          |
-38	|:-------------------:|:--------------------------------------------------------------:|
-39	|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p               |
-40	|   Domination laws   |                       p v T ≡ T<br>p ∧ F ≡ F               |
-41	|    Negation laws    |                     p v ¬p ≡ T<br>p ∧ ¬p ≡ F                   |
-42	| Double negation law |                            ¬(¬p) ≡ p                           |
-43	|   Idempotent laws   |                       p v p ≡ p<br>p ∧ p ≡ p               |
-44	|   Commutative laws  |                   p v q ≡ q v p<br>p ∧ q ≡ q ∧ p               |
-45	|   Associative laws  |       (p v q) v r ≡ p v (q v r)<br>(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |
-46	|  Distributive laws  | p v (q ∧ r) ≡ (p v q) ∧ (p v r)<br>p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |
-47	|   De Morgan's laws  |              ¬(p ∧ q) ≡ ¬p v ¬q<br>¬(p v q) ≡ ¬p ∧ ¬q      |    |
-48	|   Absorption laws   |                 p v (p ∧ q) ≡ p<br>p ∧ (p v q) ≡ p          |   |
+|         Name        |                           Equivalence                          |	
+|:-------------------:|:--------------------------------------------------------------:|
+|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p               |
+|   Domination laws   |                       p v T ≡ T<br>p ∧ F ≡ F               |
+|    Negation laws    |                     p v ¬p ≡ T<br>p ∧ ¬p ≡ F                   |
+| Double negation law |                            ¬(¬p) ≡ p                           |
+|   Idempotent laws   |                       p v p ≡ p<br>p ∧ p ≡ p               |
+|   Commutative laws  |                   p v q ≡ q v p<br>p ∧ q ≡ q ∧ p               |
+|   Associative laws  |       (p v q) v r ≡ p v (q v r)<br>(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |
+|  Distributive laws  | p v (q ∧ r) ≡ (p v q) ∧ (p v r)<br>p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |
+|   De Morgan's laws  |              ¬(p ∧ q) ≡ ¬p v ¬q<br>¬(p v q) ≡ ¬p ∧ ¬q      |    |
+|   Absorption laws   |                 p v (p ∧ q) ≡ p<br>p ∧ (p v q) ≡ p          |   |
+
+-Another lesson I learned was **Quantifiers**
+-Quantifiers indicates generality of the open sentence in which a variable occurs.
+--**Existential Quantifiers** indicates "there exists".
+--**Universal Quantifiers** indicates "for all".
+-**When is it true? When is it false?**
+|               |           When True             |
+|:-------------:|:-------------------------------:|
+|     ∀xP(x)    |    P(x) is true for every x    |
+|     ∃xP(x)   |   There is an x for which P(x) is true  |
+|:-------------:|:-------------------------------:|
+|               |           When False             |
+|:-------------:|:-------------------------------:|
+|     ∀xP(x)    |    There is an x for which P(x) is false   |
+|     ∃xP(x)   |   P(x) is false for every x   |
+
+#Week 3
+This week, We 
