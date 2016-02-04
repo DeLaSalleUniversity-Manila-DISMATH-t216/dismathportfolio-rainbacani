@@ -26,14 +26,15 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - Now it gets a bit familiar. 
 - I can remember those identity laws in trigonometry.
 - In DISMATH, there are also laws that we can use as a logical proof, such as
-- 1. Implication
-- 2. Identity
-- 3. Domination
-- 4. Negation
-- 5. Double Negation
-- 6. Idempotent
-- 7. Commutative
-- 8. Associative
-- 9. Distributive
-- 10. De Morgans
-- 11. Absorption
+|         Name        |                           Equivalence                          |
+|:-------------------:|:--------------------------------------------------------------:|
+|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p               |
+|   Domination laws   |                       p v T ≡ T<br>p ∧ F ≡ F               |
+|    Negation laws    |                     p v ¬p ≡ T<br>p ∧ ¬p ≡ F                   |
+| Double negation law |                            ¬(¬p) ≡ p                           |
+|   Idempotent laws   |                       p v p ≡ p<br>p ∧ p ≡ p               |
+|   Commutative laws  |                   p v q ≡ q v p<br>p ∧ q ≡ q ∧ p               |
+|   Associative laws  |       (p v q) v r ≡ p v (q v r)<br>(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |
+|  Distributive laws  | p v (q ∧ r) ≡ (p v q) ∧ (p v r)<br>p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |
+|   De Morgan's laws  |              ¬(p ∧ q) ≡ ¬p v ¬q<br>¬(p v q) ≡ ¬p ∧ ¬q          |
+|   Absorption laws   |                 p v (p ∧ q) ≡ p<br>p ∧ (p v q) ≡ p             |
