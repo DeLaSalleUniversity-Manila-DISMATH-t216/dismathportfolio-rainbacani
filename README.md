@@ -22,7 +22,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - DISMATH is starting to affect the way I talk to people.
 - This week, I learned that propositions can also be proved using Logical equivalences.
 -Using logical equivalences is similar to identity laws in trigonometry.
-- In DISMATH, there are also laws that we can use as a logical proof, such as:
+- In DISMATH, there are also laws that we can use as a logical proof, such as
 
 |         Name        |                           Equivalence                          |	
 |:-------------------:|:--------------------------------------------------------------:|
@@ -41,17 +41,46 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 -Quantifiers indicates generality of the open sentence in which a variable occurs.
 --**Existential Quantifiers** indicates "there exists".
 --**Universal Quantifiers** indicates "for all".
--**When is it true? When is it false?**:
-
+-**When is it true? When is it false?**
 |               |           When True             |
-|:-------------:|:-------------------------------:|
 |     ∀xP(x)    |    P(x) is true for every x    |
 |     ∃xP(x)   |   There is an x for which P(x) is true  |
-|:-------------:|:-------------------------------:|
 |               |           When False             |
-|:-------------:|:-------------------------------:|
 |     ∀xP(x)    |    There is an x for which P(x) is false   |
 |     ∃xP(x)   |   P(x) is false for every x   |
--
+
+
+-I also learned this week about **Predicate Logic**
+- **Predicate logic** concerned its internal structure in terms of *subject* and *predicate*.
+-Lastly, I've learned the terminologies for Rules of Inference:
+-Argument - a sequence of statements that ends with a conclusion.
+-Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q
+--Where (p1 ∧ p2 ∧ p3 ... ∧ pn) are the premises and q is the conclusion
+-Valid - The conclusion of he argument must follow from the true of the preceding statements of the argument.
+-Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q is TAUTOLOGY
+-Tautology- A statement is ALWAYS true
+-Fallacy - Invalid argument.
+
 #Week 3
-This week, We 
+There are **tools** that can be valid argumaents in propositional logic.
+  - Truth Table (for less variables)
+  - Logical equivalences
+  - Quantifiers
+  - Rules of Inference
+-It is now clear to me that the validity of the argument is different from the thruthfulness of a conlusion.
+-Validity focuses on the structure, while the truthfulness of the conlusion is guranteed if all the premises are true. 
+- Because some arguments have more than two variables, using rules of inference instead of truth tables would help.
+- We can use **rules of inference** as an alternative, the table is shown below:
+
+|   **Rule of Inference**  |            **Tautology**           |          **Name**          |
+|:--------------------|:------------------------------:|:----------------------:|
+|       p<br>p→q<br>∴ q      |        (p ∧ (p → q)) → q       |      Modus Ponens      |
+|     ¬q<br>p→q<br>∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |      Modus Tollens     |
+|     p→q<br>q→r<br>∴ p→r    |  ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
+|      p∨q<br>¬p<br>∴ q      |       ((p ∨ q) ∧ ¬p) → q       |  Disjunctive Syllogism |
+|       p<br>∴p ∨ q       |           p → (p ∨ q)          |        Addition        |
+|       p ∧ q<br>∴ p       |           (p ∧ q) → p          |      Simplication      |
+|      p<br>q<br>∴ p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
+| p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       | 
+
+-B
