@@ -25,7 +25,8 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - This week, I learned that propositions can also be proved using Logical equivalences.
 - Now it gets a bit familiar. 
 - I can remember those identity laws in trigonometry.
-- In DISMATH, there are also laws that we can use as a logical proof, such as
+- In DISMATH, there are also laws that we can use as a logical proof, such as:
+
 |         Name        |                           Equivalence                          |
 38	|:-------------------:|:--------------------------------------------------------------:|
 39	|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p               |
