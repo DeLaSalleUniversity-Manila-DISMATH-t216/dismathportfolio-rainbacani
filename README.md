@@ -85,5 +85,5 @@ There are **tools** that can be valid argumaents in propositional logic.
 
 
 
---GOD IS GOOD, ALL THE TIME.
---ALL THE TIME, GOD IS GOOD.
+--*GOD IS GOOD, ALL THE TIME.*
+--*ALL THE TIME, GOD IS GOOD.*
