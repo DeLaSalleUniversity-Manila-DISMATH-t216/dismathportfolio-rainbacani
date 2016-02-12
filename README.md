@@ -40,15 +40,15 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 
 - Another lesson I learned was **Quantifiers**
 - Quantifiers indicates generality of the open sentence in which a variable occurs.
--- **Existential Quantifiers** indicates "there exists".
--- **Universal Quantifiers** indicates "for all".
+ - **Existential Quantifiers** indicates "there exists".
+ - **Universal Quantifiers** indicates "for all".
 - **When is it true? When is it false?**
-- 
+
 |        **Quantifiers**       |           **When True**             |
 |----------------------|-------------------------------|
 |     ∀xP(x)    |    P(x) is true for every x    |
 |     ∃xP(x)   |   There is an x for which P(x) is true  
-|               |           When False             |
+|               |           **When False**            |
 |     ∀xP(x)    |    There is an x for which P(x) is false   |
 |     ∃xP(x)   |   P(x) is false for every x   |
 
@@ -58,7 +58,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - Lastly, I've learned the terminologies for Rules of Inference:
 - Argument - a sequence of statements that ends with a conclusion.
 - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q
--- Where (p1 ∧ p2 ∧ p3 ... ∧ pn) are the premises and q is the conclusion
+ - Where (p1 ∧ p2 ∧ p3 ... ∧ pn) are the premises and q is the conclusion
 - Valid - The conclusion of he argument must follow from the true of the preceding statements of the argument.
 - Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q is TAUTOLOGY
 - Tautology- A statement is ALWAYS true
@@ -181,7 +181,6 @@ dismathportfolio-rainbacani created by Classroom for GitHub
     - P2: n-1 is odd
     - P2: n^2 is even.
   - To do this we have to prove P1 ↔ P2, P1 ↔ P3, and P2 ↔ P3 are all true.
-  - 
 
 - *Counterexample* - It is an example that disproves a universal ("for all") statement.
   - Ex. Prove or disprove the following theorem: 
