@@ -44,7 +44,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 -**When is it true? When is it false?**
 |               |           When True             |
 |     ∀xP(x)    |    P(x) is true for every x    |
-|     ∃xP(x)   |   There is an x for which P(x) is true  |
+|     ∃xP(x)   |   There is an x for which P(x) is true  
 |               |           When False             |
 |     ∀xP(x)    |    There is an x for which P(x) is false   |
 |     ∃xP(x)   |   P(x) is false for every x   |
@@ -83,8 +83,15 @@ There are **tools** that can be valid argumaents in propositional logic.
 |      p<br>q<br>∴ p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
 | p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       | 
 
+-I also learned that biconditional or the statement A if and only if B can be expressed as "A if B and A only if B".
+-A ↔ B = (A → B) ∧ (B → A)
+-Where: A → B  is the expression for "A only if B"
+-B → A is the expression for "A if B"
 
 
--*GOD IS GOOD, ALL THE TIME.*
 
--*ALL THE TIME, GOD IS GOOD.*
+
+
+*GOD IS GOOD, ALL THE TIME.*
+
+*ALL THE TIME, GOD IS GOOD.*
