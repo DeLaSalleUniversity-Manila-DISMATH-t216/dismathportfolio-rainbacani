@@ -98,19 +98,19 @@ There are **tools** that can be valid argumaents in propositional logic.
 -t = canoe trip
 -h = home by sunset
 -The premises stated were
----1. ¬s ∧ c
----2. ¬s → ¬w
----3. ¬w → t
----4. t → h
----∴ h
+-1. ¬s ∧ c
+-2. ¬s → ¬w
+-3. ¬w → t
+-4. t → h
+-∴ h
 --Simplification of Premise 1
--\t¬s
--\tw → s
--\t∴ ¬w
--\t\t¬w → 
--\t\t∴ t
--\t\t\tt → h
--\t\t\t∴ h
+-¬s
+-w → s
+-∴ ¬w
+-¬w → 
+-∴ t
+-t → h
+-\∴ h
 
 
 *GOD IS GOOD, ALL THE TIME.*
