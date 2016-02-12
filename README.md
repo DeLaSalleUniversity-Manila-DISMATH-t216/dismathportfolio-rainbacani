@@ -189,7 +189,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - **Mathematical Induction**
   - Like a domino:
   ![myimage-alt-tag](http://www.appsgare.com/wp-content/uploads/2015/03/Domino.jpg)
-
+  - If it started true, and it stays true, then it will always be true.
     - P(1), P(2), P(3), P(k), P(k+1), ...
   - Steps:
     1. Basic step: Show *P(1) ≡ T
