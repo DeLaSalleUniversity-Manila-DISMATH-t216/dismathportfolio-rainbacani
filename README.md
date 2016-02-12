@@ -214,6 +214,6 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 
 
 
-**GOD IS GOOD, ALL THE TIME.**
-**ALL THE TIME, GOD IS GOOD.**
+*GOD IS GOOD, ALL THE TIME.*
+*ALL THE TIME, GOD IS GOOD.*
 
