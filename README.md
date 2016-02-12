@@ -103,14 +103,22 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - 3. ¬w → t
 - 4. t → h
 - ∴ h
-- Simplification of Premise 1
-- ¬s
-- w → s
--  ∴ ¬w   (m.t.)
--    ¬w → t 
--     ∴ t   (m.p.)
--       t → h
--        ∴ h   (m.p.)
+- To prove it using Rules of inference
+ - ¬s (Simplification of Premise 1)
+ - w → s
+ -  ∴ ¬w   (m.t.)
+ -    ¬w → t 
+ -     ∴ t   (m.p.)
+ -       t → h
+ -        ∴ h   (m.p.)
+
+- This week I also learned about the different methods of proof
+- Direct Proof
+- Proof by Contraposition (Indirect)
+- Vacuous and Trivial Proof
+- Proof by Contradiction (Indirect)
+- Proof by Equivalence 
+- Mathematical Induction
 
 
 *GOD IS GOOD, ALL THE TIME.*
