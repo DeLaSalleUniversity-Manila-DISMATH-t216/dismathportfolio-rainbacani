@@ -208,8 +208,12 @@ dismathportfolio-rainbacani created by Classroom for GitHub
         - P(k + 1) = k(k+1)/2 + k + 1 =  (k+1)(k+2)/2
         - P(k + 1) = (k+1)(k + 2)/2 =  (k+1)(k+2)/2
 
+- note: Week count starts with Wednesdays
+- Credits to owners of some tables and images
+ 
 
-*GOD IS GOOD, ALL THE TIME.*
 
-*ALL THE TIME, GOD IS GOOD.*
+
+**GOD IS GOOD, ALL THE TIME.**
+**ALL THE TIME, GOD IS GOOD.**
 
