@@ -198,10 +198,8 @@ dismathportfolio-rainbacani created by Classroom for GitHub
   - Ex. Prove or disprove the following theorem: 
     - Every positive integer is the sum os the squares of two integers.
       - The statement is *false* due to *counterexample*
-    
-##Week 6
 - **Mathematical Induction**
-  - Treats the sequence of propositions as a domino:
+  - Like a domino:
     - P(1), P(2), P(3), P(k), P(k+1), ...
   - Steps:
     1. Basic step: Show *P(1)≡T*
@@ -210,10 +208,6 @@ dismathportfolio-rainbacani created by Classroom for GitHub
       - Show that is also *P(k+1)* true.
   - *Q.E.D. (quod erat demonstrandum)* - "which is what had to be proven" or signals the completion of the proof.
   - Ex. Prove P(n) = 1 + 2 + 3 + … + n = n(n+1)/2
-
-
-- Proof by Equivalence 
-- Mathematical Induction
 
 
 *GOD IS GOOD, ALL THE TIME.*
