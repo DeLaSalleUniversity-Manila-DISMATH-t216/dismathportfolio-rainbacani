@@ -1,6 +1,7 @@
 # dismathportfolio-rainbacani
 dismathportfolio-rainbacani created by Classroom for GitHub
 
+![](https://s3.amazonaws.com/files.digication.com/Md44dd9904e7fd145370066c3cd69f189.jpg)
 
 ##Week 1
  - Introduction to Dicrete Mathematics DISMATH: First thing in mind: "This term would be great because of DISMATH."
@@ -149,6 +150,11 @@ dismathportfolio-rainbacani created by Classroom for GitHub
  - Steps:
     1. Assume the WHOLE premise is false *¬(premise)*≡T.
     2. Show that (1) will end up in a *contradiction*.
+
+
+## Week 5
+
+- **proof by contradiction**.
   - Ex 1. Prove that √2 is irrational by giving a proof by contradiction.
     - Rational number: {a/b | a, b ∈ Z, b≠0, *a, b does not have common factor except ±1 (or in lowest terms)}
 - From example #2 of proof by contradiction it leads us to **negation of implication**.
@@ -163,36 +169,17 @@ dismathportfolio-rainbacani created by Classroom for GitHub
   - Ex 1. "If n is an integer, n is even iff n^2 is even." (r ↔ s)
     - For biconditional statement, we should prove (r → s) and (s → r) are both *true*.
 
-
-## Week 5
-
-- We had two examples in **proof by contradiction**.
-  - Ex 1. Prove that √2 is irrational by giving a proof by contradiction.
-    - Rational number: {a/b | a, b ∈ Z, b≠0, *a, b does not have common factor except ±1}
-  - Ex 2. "If 3n+2 is odd, then n is odd."
-- From example #2 of proof by contradiction it leads us to **negation of implication**.
-- **Negation of Implication** (¬(p → q) → (p ∧ ¬q))
-- **Contradiction and Implication**
-  - “If *p* s true, then *q* is true” using a **proof by contradiction**:
-    1. Assume that *p≡T* and that *q≡F*.
-    2. Derive a contradiction.
-    3. Conclude that if *p* is *true*, *q* must be *as well*.
-- **Proof by Equivalence (Biconditionals)**
-  - To prove a theorem that is a biconditional statement *(p ↔ q)*, we show that: *(p → q) → [(p → q) ∧ (q → p)]*
-  - Ex 1. "If n is an integer, n is even iff n^2 is even." (r ↔ s)
-    - For biconditional statement, we should prove (r → s) and (s → r) are both *true*.
-
 ## Week 6
 
-- We continued our discussion in **methods of proofs**, and had more examples in **proof by equivalence**.
-- **Proof by Equivalence (Biconditionals)**
-  - Ex 2. "If n is a positive integer, then n is odd if and only if n^2 is odd."
-  - Ex 3. For any natural number n, n is even if and only if n^2 is even.
-  - Ex 4. Show that these statements about the integer _n_ are equivalent:
+- Today I learned about **Proof by Equivalence (Biconditionals)**
+  - Example: Statement 1. "If n is a positive integer, then n is odd if and only if n^2 is odd."
+  - Statement 2. For any natural number n, n is even if and only if n^2 is even.
+  - Show that these statements about the integer _n_ are equivalent:
     - P1: n is even
     - P2: n-1 is odd
     - P2: n^2 is even.
-    
+  - To do this we have to prove P1 ↔ P2, P1 ↔ P3, and P2 ↔ P3 are all true.
+  - 
 
 - *Counterexample* - It is an example that disproves a universal ("for all") statement.
   - Ex. Prove or disprove the following theorem: 
@@ -200,17 +187,29 @@ dismathportfolio-rainbacani created by Classroom for GitHub
       - The statement is *false* due to *counterexample*
 - **Mathematical Induction**
   - Like a domino:
-  ![myimage-alt-tag](https://media.giphy.com/media/xTiTnyogFXV3Khw6Xe/giphy.gif)
+  ![myimage-alt-tag](http://www.appsgare.com/wp-content/uploads/2015/03/Domino.jpg)
+
     - P(1), P(2), P(3), P(k), P(k+1), ...
   - Steps:
-    1. Basic step: Show *P(1)≡T*
-    2. Inductive step: 
+    1. Basic step: Show *P(1) ≡ T
+      - ![](http://www.gifbin.com/bin/022013/1361304798_dominoes_launch_fail.gif)
+        - *If P(1) is false, then the entire domino pile fails!*
+    2. Inductive step (via Direct proof): 
       - Assume *P(k)* is true.
       - Show that is also *P(k+1)* true.
   - *Q.E.D. (quod erat demonstrandum)* - "which is what had to be proven" or signals the completion of the proof.
   - Ex. Prove P(n) = 1 + 2 + 3 + … + n = n(n+1)/2
+    - 1. Prove P(1) is true
+    - 2. Direct proof
+      - a. Assume P(k) ≡ T
+        - P(k) = 1 + 2 + 3 + … + k = k(k+1)/2
+      - b. Show P(k + 1)
+        - P(k + 1) = 1 + 2 + 3 + … + k + (k + 1) = (k+1)(k+2)/2
+        - P(k + 1) = k(k+1)/2 + k + 1 =  (k+1)(k+2)/2
+        - P(k + 1) = (k+1)(k + 2)/2 =  (k+1)(k+2)/2
 
 
 *GOD IS GOOD, ALL THE TIME.*
 
 *ALL THE TIME, GOD IS GOOD.*
+
