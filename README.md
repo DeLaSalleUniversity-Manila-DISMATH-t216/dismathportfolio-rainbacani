@@ -104,19 +104,13 @@ There are **tools** that can be valid argumaents in propositional logic.
 ---4. t → h
 ---∴ h
 --Simplification of Premise 1
---- ¬s
-
-----w → s
-
-----∴ ¬w
-
-------¬w → 
-
--------∴ t
-
----------t → h
-
----------∴ h
+-\t¬s
+-\tw → s
+-\t∴ ¬w
+-\t\t¬w → 
+-\t\t∴ t
+-\t\t\tt → h
+-\t\t\t∴ h
 
 
 *GOD IS GOOD, ALL THE TIME.*
