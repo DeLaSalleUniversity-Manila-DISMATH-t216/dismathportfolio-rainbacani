@@ -106,11 +106,11 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - Simplification of Premise 1
 - ¬s
 - w → s
-- ∴ ¬w
-- ¬w → t
-- ∴ t
-- t → h
-- ∴ h
+-  ∴ ¬w   (m.t.)
+-    ¬w → t 
+-     ∴ t   (m.p.)
+-       t → h
+-        ∴ h   (m.p.)
 
 
 *GOD IS GOOD, ALL THE TIME.*
