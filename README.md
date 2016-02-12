@@ -105,11 +105,17 @@ There are **tools** that can be valid argumaents in propositional logic.
 ---∴ h
 --Simplification of Premise 1
 --- ¬s
+
 ----w → s
+
 ----∴ ¬w
-------¬w → t
+
+------¬w → 
+
 -------∴ t
+
 ---------t → h
+
 ---------∴ h
 
 
