@@ -22,7 +22,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 ##Week 2
 - DISMATH is starting to affect the way I talk to people.
 - This week, I learned that propositions can also be proved using Logical equivalences.
--Using logical equivalences is similar to identity laws in trigonometry.
+- Using logical equivalences is similar to identity laws in trigonometry.
 - In DISMATH, there are also laws that we can use as a logical proof, such as
 
 |         Name        |                           Equivalence                          |	
@@ -38,12 +38,14 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 |   De Morgan's laws  |              ¬(p ∧ q) ≡ ¬p v ¬q<br>¬(p v q) ≡ ¬p ∧ ¬q      |    |
 |   Absorption laws   |                 p v (p ∧ q) ≡ p<br>p ∧ (p v q) ≡ p          |   |
 
--Another lesson I learned was **Quantifiers**
--Quantifiers indicates generality of the open sentence in which a variable occurs.
---**Existential Quantifiers** indicates "there exists".
---**Universal Quantifiers** indicates "for all".
--**When is it true? When is it false?**
-|               |           When True             |
+- Another lesson I learned was **Quantifiers**
+- Quantifiers indicates generality of the open sentence in which a variable occurs.
+-- **Existential Quantifiers** indicates "there exists".
+-- **Universal Quantifiers** indicates "for all".
+- **When is it true? When is it false?**
+- 
+|        **Quantifiers**       |           **When True**             |
+|----------------------|-------------------------------|
 |     ∀xP(x)    |    P(x) is true for every x    |
 |     ∃xP(x)   |   There is an x for which P(x) is true  
 |               |           When False             |
@@ -51,19 +53,19 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 |     ∃xP(x)   |   P(x) is false for every x   |
 
 
--I also learned this week about **Predicate Logic**
+- I also learned this week about **Predicate Logic**
 - **Predicate logic** concerned its internal structure in terms of *subject* and *predicate*.
--Lastly, I've learned the terminologies for Rules of Inference:
--Argument - a sequence of statements that ends with a conclusion.
--Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q
---Where (p1 ∧ p2 ∧ p3 ... ∧ pn) are the premises and q is the conclusion
--Valid - The conclusion of he argument must follow from the true of the preceding statements of the argument.
--Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q is TAUTOLOGY
--Tautology- A statement is ALWAYS true
--Fallacy - Invalid argument.
+- Lastly, I've learned the terminologies for Rules of Inference:
+- Argument - a sequence of statements that ends with a conclusion.
+- Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q
+-- Where (p1 ∧ p2 ∧ p3 ... ∧ pn) are the premises and q is the conclusion
+- Valid - The conclusion of he argument must follow from the true of the preceding statements of the argument.
+- Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q is TAUTOLOGY
+- Tautology- A statement is ALWAYS true
+- Fallacy - Invalid argument.
 
 ##Week 3
--There are **tools** that can be valid argumaents in propositional logic.
+- There are **tools** that can be valid argumaents in propositional logic.
   - Truth Table (for less variables)
   - Logical equivalences
   - Quantifiers
@@ -84,10 +86,10 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 |      p<br>q<br>∴ p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
 | p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       | 
 
--I also learned that biconditional or the statement A if and only if B can be expressed as "A if B and A only if B".
--A ↔ B ≡ (A → B) ∧ (B → A)
--Where: A → B  is the expression for "A only if B"
--B → A is the expression for "A if B"
+- I also learned that biconditional or the statement A if and only if B can be expressed as "A if B and A only if B".
+- A ↔ B ≡ (A → B) ∧ (B → A)
+- Where: A → B  is the expression for "A only if B"
+- B → A is the expression for "A if B"
 
 ##Week 4
 - January 27, 2016
@@ -107,17 +109,17 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - To prove it using Rules of inference
  - ¬s (Simplification of Premise 1)
  - w → s
-   -∴ ¬w   (m.t.)
-     -¬w → t 
-      -∴ t   (m.p.)
-        -t → h
-         -∴ h   (m.p.)
+   - ∴ ¬w   (m.t.)
+     - ¬w → t 
+      - ∴ t   (m.p.)
+        - t → h
+         - ∴ h   (m.p.)
 
 - This week I also learned about the different methods of proof
 - **Direct proof** (p → q)
   - Steps:
-    1. Assume *p* is true.
-    2. Show that *q* is also true (based on 1).
+    - 1. Assume *p* is true.
+    - 2. Show that *q* is also true (based on 1).
   - Ex. "If n is an integer, then n^2 is odd."
     - Odd number: {2k+1 | k ∈ Z}
     - Even number: {2K | k ∈ Z}
