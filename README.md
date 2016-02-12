@@ -18,7 +18,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - Through proof table we proved that implication is equal to its contrapositive.
 - p → q = ¬q → ¬p
 
-#Week 2
+##Week 2
 - DISMATH is starting to affect the way I talk to people.
 - This week, I learned that propositions can also be proved using Logical equivalences.
 -Using logical equivalences is similar to identity laws in trigonometry.
@@ -84,7 +84,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 | p ∨ q<br>¬p ∨ r<br>∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       | 
 
 -I also learned that biconditional or the statement A if and only if B can be expressed as "A if B and A only if B".
--A ↔ B = (A → B) ∧ (B → A)
+-A ↔ B ≡ (A → B) ∧ (B → A)
 -Where: A → B  is the expression for "A only if B"
 -B → A is the expression for "A if B"
 
@@ -106,17 +106,112 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 - To prove it using Rules of inference
  - ¬s (Simplification of Premise 1)
  - w → s
- -  ∴ ¬w   (m.t.)
- -    ¬w → t 
- -     ∴ t   (m.p.)
- -       t → h
- -        ∴ h   (m.p.)
+   -∴ ¬w   (m.t.)
+     -¬w → t 
+      -∴ t   (m.p.)
+        -t → h
+         -∴ h   (m.p.)
 
 - This week I also learned about the different methods of proof
-- Direct Proof
+- **Direct proof** (p → q)
+  - Steps:
+    1. Assume *p* is true.
+    2. Show that *q* is also true (based on 1).
+  - Ex. "If n is an integer, then n^2 is odd."
+    - Odd number: {2k+1 | k ∈ Z}
+    - Even number: {2K | k ∈ Z}
+
 - Proof by Contraposition (Indirect)
+ - p → q ≡ ¬q → ¬p
+ - Steps for Contraposition
+  - 1. Assume *¬q* is true.
+    2. Show that *¬p* is also true.
+   - This is usually used when *p* is more complicated than *q*.
+  - Ex 1. "If n is an integer and 3n+2 is odd, then n is odd."
+  - Ex 2. "If n=ab, where a and b are positive intergers, then a≤√n or b≤√n."  
 - Vacuous and Trivial Proof
+ - **Vacuous Proof** 
+  - ¬p → (p → q)
+  - Show that *p* is *false*, because *(p → q)* must be *true* when *p* is false.
+   - Premise: ¬p ≡ T     
+   - Conclusion: (p → q) ≡ T
+    - *(p → q) is true when p is false*
+  - Ex. "If 6 is a prime number, then 6^2=30."
+    - It is a **vacuous proof** because the first and second statement are both *false*.
+ - **Trivial Proof** (q → (p → q))
+  - Show that *q* is *true*, it follows that *(p → q)* must also be *true*.
+  - Ex. "If there are 30 students enrolled in this course this semester, then 6^2=36."
+   - Premise: q ≡ T     
+   - Conclusion: (p → q) ≡ T 
+    - It is a **trivial proof** because the first statement is *vague*, while the second statment is clearly *true*.
 - Proof by Contradiction (Indirect)
+ -Kind of tricky when the premise has two propositions
+ - Steps:
+    1. Assume the WHOLE premise is false *¬(premise)*≡T.
+    2. Show that (1) will end up in a *contradiction*.
+  - Ex 1. Prove that √2 is irrational by giving a proof by contradiction.
+    - Rational number: {a/b | a, b ∈ Z, b≠0, *a, b does not have common factor except ±1 (or in lowest terms)}
+- From example #2 of proof by contradiction it leads us to **negation of implication**.
+- **Negation of Implication** (¬(p → q) → (p ∧ ¬q))
+- **Contradiction and Implication**
+  - “If *p* s true, then *q* is true” using a **proof by contradiction**:
+    1. Assume that *p≡T* and that *q≡F*.
+    2. Derive a contradiction.
+    3. Conclude that if *p* is *true*, *q* must be *as well*.
+- **Proof by Equivalence (Biconditionals)**
+  - To prove a theorem that is a biconditional statement *(p ↔ q)*, we show that: *(p → q) → [(p → q) ∧ (q → p)]*
+  - Ex 1. "If n is an integer, n is even iff n^2 is even." (r ↔ s)
+    - For biconditional statement, we should prove (r → s) and (s → r) are both *true*.
+
+
+## Week 5
+
+- We had two examples in **proof by contradiction**.
+  - Ex 1. Prove that √2 is irrational by giving a proof by contradiction.
+    - Rational number: {a/b | a, b ∈ Z, b≠0, *a, b does not have common factor except ±1}
+  - Ex 2. "If 3n+2 is odd, then n is odd."
+- From example #2 of proof by contradiction it leads us to **negation of implication**.
+- **Negation of Implication** (¬(p → q) → (p ∧ ¬q))
+- **Contradiction and Implication**
+  - “If *p* s true, then *q* is true” using a **proof by contradiction**:
+    1. Assume that *p≡T* and that *q≡F*.
+    2. Derive a contradiction.
+    3. Conclude that if *p* is *true*, *q* must be *as well*.
+- **Proof by Equivalence (Biconditionals)**
+  - To prove a theorem that is a biconditional statement *(p ↔ q)*, we show that: *(p → q) → [(p → q) ∧ (q → p)]*
+  - Ex 1. "If n is an integer, n is even iff n^2 is even." (r ↔ s)
+    - For biconditional statement, we should prove (r → s) and (s → r) are both *true*.
+
+## Week 6
+
+- We continued our discussion in **methods of proofs**, and had more examples in **proof by equivalence**.
+- **Proof by Equivalence (Biconditionals)**
+  - Ex 2. "If n is a positive integer, then n is odd if and only if n^2 is odd."
+  - Ex 3. For any natural number n, n is even if and only if n^2 is even.
+  - Ex 4. Show that these statements about the integer _n_ are equivalent:
+    - P1: n is even
+    - P2: n-1 is odd
+    - P2: n^2 is even.
+    
+
+- *Counterexample* - It is an example that disproves a universal ("for all") statement.
+  - Ex. Prove or disprove the following theorem: 
+    - Every positive integer is the sum os the squares of two integers.
+      - The statement is *false* due to *counterexample*
+    
+##Week 6
+- **Mathematical Induction**
+  - Treats the sequence of propositions as a domino:
+    - P(1), P(2), P(3), P(k), P(k+1), ...
+  - Steps:
+    1. Basic step: Show *P(1)≡T*
+    2. Inductive step: 
+      - Assume *P(k)* is true.
+      - Show that is also *P(k+1)* true.
+  - *Q.E.D. (quod erat demonstrandum)* - "which is what had to be proven" or signals the completion of the proof.
+  - Ex. Prove P(n) = 1 + 2 + 3 + … + n = n(n+1)/2
+
+
 - Proof by Equivalence 
 - Mathematical Induction
 
