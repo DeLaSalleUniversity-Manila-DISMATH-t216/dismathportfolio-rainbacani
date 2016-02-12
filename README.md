@@ -88,8 +88,29 @@ There are **tools** that can be valid argumaents in propositional logic.
 -Where: A → B  is the expression for "A only if B"
 -B → A is the expression for "A if B"
 
-
-
+#Week 4
+##January 27, 2016
+-We practiced proving a 7-sentence argument using rules of inference.
+-We let 's','c','w','t','h' to represent the propositions.
+-being s = sunny
+-c = colder
+-w = swimming
+-t = canoe trip
+-h = home by sunset
+-The premises stated were
+---1. ¬s ∧ c
+---2. ¬s → ¬w
+---3. ¬w → t
+---4. t → h
+---∴ h
+--Simplification of Premise 1
+--- ¬s
+----w → s
+----∴ ¬w
+------¬w → t
+-------∴ t
+---------t → h
+---------∴ h
 
 
 *GOD IS GOOD, ALL THE TIME.*
