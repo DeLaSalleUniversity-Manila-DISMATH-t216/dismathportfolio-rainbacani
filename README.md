@@ -61,14 +61,14 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 -Tautology- A statement is ALWAYS true
 -Fallacy - Invalid argument.
 
-#Week 3
-There are **tools** that can be valid argumaents in propositional logic.
+##Week 3
+-There are **tools** that can be valid argumaents in propositional logic.
   - Truth Table (for less variables)
   - Logical equivalences
   - Quantifiers
   - Rules of Inference
--It is now clear to me that the validity of the argument is different from the thruthfulness of a conlusion.
--Validity focuses on the structure, while the truthfulness of the conlusion is guranteed if all the premises are true. 
+- It is now clear to me that the validity of the argument is different from the thruthfulness of a conlusion.
+- Validity focuses on the structure, while the truthfulness of the conlusion is guranteed if all the premises are true. 
 - Because some arguments have more than two variables, using rules of inference instead of truth tables would help.
 - We can use **rules of inference** as an alternative, the table is shown below:
 
@@ -88,29 +88,29 @@ There are **tools** that can be valid argumaents in propositional logic.
 -Where: A → B  is the expression for "A only if B"
 -B → A is the expression for "A if B"
 
-#Week 4
-##January 27, 2016
--We practiced proving a 7-sentence argument using rules of inference.
--We let 's','c','w','t','h' to represent the propositions.
--being s = sunny
--c = colder
--w = swimming
--t = canoe trip
--h = home by sunset
--The premises stated were
--1. ¬s ∧ c
--2. ¬s → ¬w
--3. ¬w → t
--4. t → h
--∴ h
--Simplification of Premise 1
--¬s
--w → s
--∴ ¬w
--¬w → t
--∴ t
--t → h
--∴ h
+##Week 4
+- January 27, 2016
+- We practiced proving a 7-sentence argument using rules of inference.
+- We let 's','c','w','t','h' to represent the propositions.
+- being s = sunny
+- c = colder
+- w = swimming
+- t = canoe trip
+- h = home by sunset
+- The premises stated were
+- 1. ¬s ∧ c
+- 2. ¬s → ¬w
+- 3. ¬w → t
+- 4. t → h
+- ∴ h
+- Simplification of Premise 1
+- ¬s
+- w → s
+- ∴ ¬w
+- ¬w → t
+- ∴ t
+- t → h
+- ∴ h
 
 
 *GOD IS GOOD, ALL THE TIME.*
