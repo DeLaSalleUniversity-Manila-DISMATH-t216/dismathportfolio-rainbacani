@@ -103,14 +103,14 @@ There are **tools** that can be valid argumaents in propositional logic.
 -3. ¬w → t
 -4. t → h
 -∴ h
---Simplification of Premise 1
+-Simplification of Premise 1
 -¬s
 -w → s
 -∴ ¬w
--¬w → 
+-¬w → t
 -∴ t
 -t → h
--\∴ h
+-∴ h
 
 
 *GOD IS GOOD, ALL THE TIME.*
