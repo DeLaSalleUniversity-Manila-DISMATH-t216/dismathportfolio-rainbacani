@@ -188,7 +188,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
       - The statement is *false* due to *counterexample*
 - **Mathematical Induction**
   - Like a domino:
-  ![myimage-alt-tag](http://www.appsgare.com/wp-content/uploads/2015/03/Domino.jpg)
+  ![myimage-alt-tag]http://www.appsgare.com/wp-content/uploads/2015/03/Domino.jpg)
   - If it started true, and it stays true, then it will always be true.
     - P(1), P(2), P(3), P(k), P(k+1), ...
   - Steps:
@@ -212,17 +212,58 @@ dismathportfolio-rainbacani created by Classroom for GitHub
     - 1. Show that the program produces the correct output (partial correctness).
     - 2. Show that the program always terminates.
  - Partial correctness
-   - P: Initial assertion = T
-   - s: if ___________
-   -    else _________
-   - q: Final assertion =T
+    - P: Initial assertion = T
+    - s: if ___________
+    -    else _________
+    - q: Final assertion =T
  - Hoare Triple
-   - p { S } q = T
+    - p { S } q = T
  - Rules of inference
-   - proves that a program is correct by spliting the program into subprograms.
+    - proves that a program is correct by spliting the program into subprograms.
      - p { S1 } q 
      - q { S2 } r 
      - ∴ p { S1; S2 } r  --> Composition Rule
+ - Conditional Statement
+    - ( P ∧ condition ) { S } q    ---> Case I
+    - ( P ∧ ¬condition ) → q       ---> Case II
+    - ∴ p { if condiition then S } q
+ - If else statement
+    - ( P ∧ condition ) { S1 } q    ---> Case I
+    - ( P ∧ ¬condition ) { S2 } q       ---> Case II
+    - ∴ p { if condiition then S1 else S2 } q
+
+## Week 7
+  -  This week, we were intorduced to set theory.
+  - Set is an unordered collection of distinct objects (including other sets)
+     - Ex.
+     - Set notation" { A, B, C, D }
+     - Diclaimer: A program is not a set because order is very important.
+     - Some clarifications
+        - { A, B, C, D } ↔ { B, D, C, A }
+        - { A, B } ↔ { A, A, B, B, A }
+        - 0 != { 0 }
+        - 3 != { 3 }
+        - A ∈ { A, B, C, D }
+  - **Function**
+  - Let X & Y be sets. A function f from X to Y is an assignment of exactly one element of B to each element of A
+  - We denote f: X → Y or f: X to Y
+  - X for domain
+  - Y for Co-Domain (Can be called as Range when a particular subset B is connected from set A)
+  - Examples:
+      - f(x) = x^2 (Domain x ∈ ℤ f: ℤ to ℤ+ (Co-domain; not shown) "Perfect Square" (Range; not shown)
+      - int floor (float x) { } Domain: float x (float → ℝ) ℝ Range: int floor (int → ℤ) ℤ
+  - Types of Function:
+     - One-to-One (Injective) - ∀x∀y(f(x)=f(y) → x=y) and ∀x∀y(x≠y → f(x)≠f(y))
+     - Onto (Surjective) Range = Co-domain (and must be filled)
+     - One-to-one and Onto (Bijection)
+     ----------------------------------------------------------------------------------
+ - Another lesson in this week was Algorithms, and this would be the main focus of the quiz number 2.
+ - Algorithm is a finite set of instructions for performming a computations.
+
+  
+  
+
+ → ∧ ¬ ∴ ↔
 
 - note: Week count starts with Wednesdays
 - Credits to owners of some tables and images
