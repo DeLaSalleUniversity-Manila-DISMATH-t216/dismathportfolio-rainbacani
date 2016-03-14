@@ -208,6 +208,21 @@ dismathportfolio-rainbacani created by Classroom for GitHub
         - P(k + 1) = 1 + 2 + 3 + … + k + (k + 1) = (k+1)(k+2)/2
         - P(k + 1) = k(k+1)/2 + k + 1 =  (k+1)(k+2)/2
         - P(k + 1) = (k+1)(k + 2)/2 =  (k+1)(k+2)/2
+ - Ths week, we also learned about program correctness or verification.
+    - 1. Show that the program produces the correct output (partial correctness).
+    - 2. Show that the program always terminates.
+ - Partial correctness
+   - P: Initial assertion = T
+   - s: if ___________
+   -    else _________
+   - q: Final assertion =T
+ - Hoare Triple
+   - p { S } q = T
+ - Rules of inference
+   - proves that a program is correct by spliting the program into subprograms.
+     - p { S1 } q 
+     - q { S2 } r 
+     - ∴ p { S1; S2 } r  --> Composition Rule
 
 - note: Week count starts with Wednesdays
 - Credits to owners of some tables and images
