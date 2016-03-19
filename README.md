@@ -356,16 +356,17 @@ dismathportfolio-rainbacani created by Classroom for GitHub
   - Time Complexity
   - The time complexity of an algorithm can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
   - Commonly Used Terminology for the complexity of Algorithms.
+
 | Complexity  |   Terminology  |
 |:-----------:|:--------------:|
-| (1) |Constant  complexity  |
+| (1) | Constant  complexity  |
 | (log n) | Logarithmic complexity |
-| (n) |  Linear complexity |
+| (n) | Linear complexity |
 | (n log n) | Linearithmic complexity |
 | (n^b) | Polynomial complexity |
-| (b^n), where b > 1  | Exponential complexity |
+| (b^n), where b > 1 | Exponential complexity |
 | (n!) | Factorial complexity |
-     
+
     
 
   
@@ -378,7 +379,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
  
 
 
-
+Well, another quiz is coming. But still..
 *GOD IS GOOD, ALL THE TIME.*
 *ALL THE TIME, GOD IS GOOD.*
 
