@@ -370,7 +370,19 @@ dismathportfolio-rainbacani created by Classroom for GitHub
 | (n^b) | Polynomial complexity |
 | (b^n), where b > 1 | Exponential complexity |
 | (n!) | Factorial complexity |
-
+  - Division and Modulo Operator
+  - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
+  - Q = a div d
+  - r = a mod d
+     - Example:
+     - a = 9, b = 2
+     - Q = 9 div 2 = 4
+     - r = 2 mod 2 = 1
+     - 4(2) + 1 = 9
+     - a = - 12, b = 3
+     - Q = -11 div 3 = -4
+     - r = -11 mod 3 = 1
+     - -4(3) + 1 = -11
     
 
   
