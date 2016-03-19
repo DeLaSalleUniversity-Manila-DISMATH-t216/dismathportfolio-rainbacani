@@ -259,6 +259,94 @@ dismathportfolio-rainbacani created by Classroom for GitHub
      ----------------------------------------------------------------------------------
  - Another lesson in this week was Algorithms, and this would be the main focus of the quiz number 2.
  - Algorithm is a finite set of instructions for performming a computations.
+   - An algorithm has some qualifications/ properties.
+     - Properties of Algorithms
+      - INPUT
+      - OUTPUT
+      - DEFINITENESS
+      - CORRECTNESS
+      - FINITENESS 
+      - EFFECTIVENESS 
+      - GENERALITY
+  Here are some algorithms I learned:
+      - Finding the Maximum Element in a Finite Sequence.
+      - procedure max(a1, a2, . . . , an: integers)
+      - max := a1
+      - for i := 2 to n
+           - if max < ai then max := ai
+      - return max{max is the largest element
+      
+## Week 8
+  - This week we continued our discussion on algrorithms.
+    - The Linear Search Algorithm.
+    - procedure linear search(x: integer, a1, a2, . . . , an: distinct integers)
+    - i := 1
+    - while (i ≤ n and x = ai )
+    - i := i + 1
+    - if i ≤ n then location := i
+    - else location := 0
+    - return location{location is the subscript of the term that equals x, or is 0 if x is not found}
+  - Another Searching algorithm is the Binary Search.
+  - It is more efficient than linear search in terms of time complexity.
+  - But way more inconvinient for student like me because the algorithm is more complex.
+  - The Binary Search Algorithm.
+  - procedure binary search (x: integer, a1, a2, . . . , an: increasing integers)
+  - i := 1{i is left endpoint of search interval}
+  - j := n {j is right endpoint of search interval}
+   - while i < j
+      - m := (i + j)/2
+      - if x > am then i := m + 1
+      - else j := m
+   - if x = ai then location := i
+   - else location := 0
+   - return location{location is the subscript i of the term ai equal to x, or 0 if x is not found
+  - This week I also learned sorrting algorithms.
+  - The Bubble Sort.
+      - procedure bubblesort(a1, . . . , an : real numbers with n ≥ 2)
+      - for i := 1 to n − 1
+      - for j := 1 to n − i
+      - if aj > aj+1 then interchange aj and aj+1
+      - {a1, . . . , an is in increasing order}
+  - The Insertion Sort.
+  - procedure insertion sort(a1, a2, . . . , an: real numbers with n ≥ 2)
+  - for j := 2 to n
+     - i := 1
+     - while aj > ai
+         - i := i + 1
+     - m := aj
+     - for k := 0 to j − i − 1
+       - aj−k := aj−k−1
+     - ai := m
+     - {a1, . . . , an is in increasing order}
+ 
+## Week 8
+  - I learnied this week that algorithms can also be greedy.
+  - Greedy algorithms teach the computer to decide or choose for the best.
+  - (I HOPE THERE IS ALSO A GREEDY ALGORITH TO TEACH HUMANS TO DO SO.)
+  - Greedy Change-Making Algorithm.
+    - procedure change(c1, c2, . . . , cr : values of denominations of coins, where c1 > c2 > · · · > cr ; n: a positive integer)
+    - for i := 1 to r
+       - di := 0 {di counts the coins of denomination ci used}
+       - while n ≥ ci
+         - di := di + 1 {add a coin of denomination ci}
+         - n := n − ci
+    - {di is the number of coins of denomination ci in the change for i = 1, 2, . . . , r}
+  - Algorithms can not only be gredy, but they can also grow.
+  - (How wish everyone just choose to grow up.)
+  - BIG O NOTATION
+  - Let f and g be functions from R-R; f(x) is O(g(x)) 
+  - We can take C and k as witnesses such that: |f(x)| ≤ C|g(x)| whenever x > k.
+  - EXAMPLE 2 Show that 7x2 is O(x3).
+  - Solution: Note that whenx > 7, we have 7x2 < x3.(We can obtain this inequality by multiplying both sides ofx > 7 by x2.)
+  - Consequently, we can take C = 1 and k = 7 as witnesses to establish
+  -  Big-O Estimates for Some Important Functions
+    - Let f (x) = anx^n + an−1x^n−1 +· · ·+a1x + a0, where a0, a1, . . . , an−1, an are real numbers.
+    - Then f (x) is O(x^n).
+    - 1 + 2 + 3+· · ·+n is O(n2)
+    - n! is O(n^n)
+    - log n is O(n).
+     
+    
 
   
   
