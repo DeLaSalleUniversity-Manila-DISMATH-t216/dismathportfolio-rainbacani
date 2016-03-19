@@ -345,6 +345,25 @@ dismathportfolio-rainbacani created by Classroom for GitHub
     - 1 + 2 + 3+· · ·+n is O(n2)
     - n! is O(n^n)
     - log n is O(n).
+  - Big Omega Notation
+    -  Because Big O cannot express the lower bound, we use big Omega notation.
+       - Let f and g be functions from R-R; f(x) is O(g(x)) 
+       - We can take C and k as witnesses such that: |f(x)| ≥ C|g(x)| whenever x < k.
+       - f (n) is (n2).
+  - Big Theta Notation
+    - For both lower bound and upper bound.
+  - Algorithm, aside from being greedy, or  growing, the can also be complex.
+  - Time Complexity
+  - The time complexity of an algorithm can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+  - Commonly Used Terminology for the complexity of Algorithms.
+  | Complexity  |   Terminology  |
+  | (1) |Constant  complexity  |
+  | (log n) | Logarithmic complexity |
+  | (n) |  Linear complexity |
+  | (n log n) | Linearithmic complexity |
+  | (n^b) | Polynomial complexity |
+  | (b^n), where b > 1  | Exponential complexity |
+  | (n!) | Factorial complexity |
      
     
 
