@@ -319,7 +319,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
      - ai := m
      - {a1, . . . , an is in increasing order}
  
-## Week 8
+## Week 9
   - I learnied this week that algorithms can also be greedy.
   - Greedy algorithms teach the computer to decide or choose for the best.
   - (I HOPE THERE IS ALSO A GREEDY ALGORITH TO TEACH HUMANS TO DO SO.)
@@ -333,9 +333,11 @@ dismathportfolio-rainbacani created by Classroom for GitHub
     - {di is the number of coins of denomination ci in the change for i = 1, 2, . . . , r}
   - Algorithms can not only be gredy, but they can also grow.
   - (How wish everyone just choose to grow up.)
+
+![](growth.JPG)
   - BIG O NOTATION
   - Let f and g be functions from R-R; f(x) is O(g(x)) 
-  - We can take C and k as witnesses such that: |f(x)| ≤ C|g(x)| whenever x > k.
+  - We can take C and k as witnesses such that: |f(x)| ≤ C|g(x)| whenever x > k
   - EXAMPLE 2 Show that 7x2 is O(x3).
   - Solution: Note that whenx > 7, we have 7x2 < x3.(We can obtain this inequality by multiplying both sides ofx > 7 by x2.)
   - Consequently, we can take C = 1 and k = 7 as witnesses to establish
@@ -353,6 +355,8 @@ dismathportfolio-rainbacani created by Classroom for GitHub
   - Big Theta Notation
     - For both lower bound and upper bound.
   - Algorithm, aside from being greedy, or  growing, the can also be complex.
+  
+![](meme.jpg)
   - Time Complexity
   - The time complexity of an algorithm can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
   - Commonly Used Terminology for the complexity of Algorithms.
