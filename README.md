@@ -392,13 +392,13 @@ dismathportfolio-rainbacani created by Classroom for GitHub
  - For example, graph G = (V,E).
  - It consists of V, a nonempty set of vertices and E , a set of edges.
  - Basic terminologies for graphs.
-    - Isolated - Vertex with 0 degree.
-    - Pendant - Vertex with one degree.
-    - Degree - The number of edges incident with it, except that the loop at a vertex contributes twice to the degree of that vertex.
+   - Isolated - Vertex with 0 degree.
+   - Pendant - Vertex with one degree.
+   - Degree - The number of edges incident with it, except that the loop at a vertex contributes twice to the degree of that vertex.
  - Handshaking Theorem 
-    - To get the number of edges in an undirected graph, we simply get the sum of the degree of all.
-    - 2e =  ∑deg(v)
- - **Path** - Sequence of edges travelling from vertex to vertex along the edges.
+   - To get the number of edges in an undirected graph, we simply get the sum of the degree of all.
+   - 2e =  ∑deg(v)
+- **Path** - Sequence of edges travelling from vertex to vertex along the edges.
 - **Euler's Circuit and Path**
   - Both passes through every edge ONCE. (repetition of nodes is valid)
   - *Euler's Circuit* - Graph with all vertices/nodes having EVEN degrees. (Starting and ending points are the same)
@@ -437,7 +437,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
     - Descendants
       - Children/grandchildren
 - *M-ary tree* 
-  - If every internal vertex has exactly children.
+  - If every internal vertex has exactly m children.
   - An m-ary tree with m = 2 is called a binary tree.
 
 
