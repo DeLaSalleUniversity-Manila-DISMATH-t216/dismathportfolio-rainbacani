@@ -383,7 +383,16 @@ dismathportfolio-rainbacani created by Classroom for GitHub
      - Q = -11 div 3 = -4
      - r = -11 mod 3 = 1
      - -4(3) + 1 = -11
-    
+
+ ##Week 10
+ - Sir melvin always emphasizes the essence of multiple intelligence.
+ - Fir the last two quizzes we focused on logical reasoning on proofs and algorithm, butbthis time would be something new.
+ - For quiz 3, we learned about graphs, which falls on our visualband spacial intelligence.
+ - Graphs are discrete structures consisting of vertices and edges that connect these vertices.
+ - For example, graph G = (V,E).
+ - It consists of V, a nonempty set of vertices and E , a set of edges.
+ - Basic terminologies for graphs.
+ -- 
 
   
   
