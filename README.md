@@ -384,7 +384,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
      - r = -11 mod 3 = 1
      - -4(3) + 1 = -11
 
- ##Week 10
+ ## Week 11
  - Sir melvin always emphasizes the essence of multiple intelligence.
  - Fir the last two quizzes we focused on logical reasoning on proofs and algorithm, butbthis time would be something new.
  - For quiz 3, we learned about graphs, which falls on our visualband spacial intelligence.
@@ -419,8 +419,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
     - *Elementary Subdivision* - Everything is planar graph
     - *Kuratowski's Theorem* - Nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>.
 
-## Week 13
-###### April 4, 2016
+## Week 12
 - **Graph Coloring**
   - Assignment of a color to each vertex.
   - No two adjacent vertices are assigned the same color.
@@ -440,7 +439,7 @@ dismathportfolio-rainbacani created by Classroom for GitHub
   - If every internal vertex has no more than m children.
   - An m-ary tree with m = 2 is called a binary tree.
 
-###### April 6, 2016
+
 - **Modeling Computatio
   - Structures in Models of Computations:
     - Grammars
@@ -468,8 +467,6 @@ dismathportfolio-rainbacani created by Classroom for GitHub
   - g: Output function
   - s<sub>0</sub>: Initial state
   - Ex. A vending machine
-- **Finite-State Machines with No Output**
-- **Turing Machines**
 
   
   
