@@ -392,7 +392,32 @@ dismathportfolio-rainbacani created by Classroom for GitHub
  - For example, graph G = (V,E).
  - It consists of V, a nonempty set of vertices and E , a set of edges.
  - Basic terminologies for graphs.
- -- 
+    - Isolated - Vertex with 0 degree.
+    - Pendant - Vertex with one degree.
+    - Degree - The number of edges incident with it, except that the loop at a vertex contributes twice to the degree of that vertex.
+ - Handshaking Theorem 
+    - To get the number of edges in an undirected graph, we simply get the sum of the degree of all.
+    - 2e =  ∑deg(v)
+ - **Path** - Sequence of edges travelling from vertex to vertex along the edges.
+- **Euler's Circuit and Path**
+  - Both passes through every edge ONCE. (repetition of nodes is valid)
+  - *Euler's Circuit* - Graph with all vertices/nodes having EVEN degrees. (Starting and ending points are the same)
+  - *Euler's Path* - Graph with EXACTLY 2 vertices/nodes with ODD degrees.
+
+- **Hamilton's Ciruit and Path**
+  - Both passes through every vertex/node ONCE.
+  - *Hamilton's Circuit* - Starting and ending points are the same
+  - *Hamilton's Path*
+- **Matrices of Graph** - 1 for adjacent; 0 for non-adjacent
+- **Isomorphic Graph** - Graphs that have equal vertices/nodes, and have the same connection.
+- **Planar Graph**
+  - No edges cross in a graph.
+  - Euler's formula for counting the *regions*: r = e - v +2
+  - Euler's characteristic: ℵ = r - |e| + |v| = 2
+- **Homeomorphic Graphs**
+    - Can be obtained from the same graph by a sequence of elementary subdivisions.
+    - *Elementary Subdivision* - Everything is planar graph
+    - *Kuratowski's Theorem* - Nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>.
 
   
   
